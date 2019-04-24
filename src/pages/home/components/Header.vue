@@ -41,8 +41,8 @@ export default {
 
   .header-input {
     flex: 1;
-    height: 0.64rem; /* 32/50 */
-    line-height: 0.64rem; /* 32/50 */
+    height: 0.6rem; /* 30/50 */
+    line-height: 0.6rem; /* 30/50 */
     margin-top: 0.12rem; /* 6/50 */
     margin-left: 0.2rem; /* 10/50 */
     padding-left: 0.2rem; /* 10/50 */
