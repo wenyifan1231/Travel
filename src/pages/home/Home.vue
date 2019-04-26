@@ -10,13 +10,14 @@
 
 <script>
 /* eslint-disable */
-import HomeHeader from "./components/Header";
-import HomeSwiper from "./components/Swiper";
-import HomeIcons from "./components/Icons";
-import HomeRecommend from "./components/Recommend";
-import HomeWeekend from "./components/Weekend";
+import HomeHeader from './components/Header'
+import HomeSwiper from './components/Swiper'
+import HomeIcons from './components/Icons'
+import HomeRecommend from './components/Recommend'
+import HomeWeekend from './components/Weekend'
+import axios from 'axios'
 export default {
-  name: "Home",
+  name: 'Home',
   components: {
     HomeHeader,
     HomeSwiper,
@@ -24,7 +25,7 @@ export default {
     HomeRecommend,
     HomeWeekend
   }
-};
+}
 </script>
 
 <style>
